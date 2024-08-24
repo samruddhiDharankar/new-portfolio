@@ -2,7 +2,7 @@ import React from "react";
 import "./Hero.css";
 import profile_img from "../../assets/profile_img.svg";
 import my_profile_img from "../../assets/my_profile_img.jpg";
-
+import Samruddhi_Dharankar_Resume from "../../assets/Samruddhi_Dharankar_Resume.pdf";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Hero = () => {
@@ -24,7 +24,16 @@ const Hero = () => {
             Connect With Me
           </AnchorLink>
         </div>
-        <div className="hero-resume">My Resume</div>
+        <div className="hero-resume">
+          <a
+            href={Samruddhi_Dharankar_Resume}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="resume-link"
+          >
+            My Resume
+          </a>
+        </div>
       </div>
     </div>
   );

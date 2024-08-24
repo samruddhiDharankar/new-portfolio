@@ -62,6 +62,13 @@
     border-color: #B415FF;
 }
 
+.resume-link {
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+  }
+  
+
 @media(max-width:768px) {
     .hero img {
         margin-top: 120px;
