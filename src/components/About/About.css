@@ -49,6 +49,11 @@
     gap: 20px;
 }
 
+.about-skills-box {
+    display: flex;
+    gap: 40px;
+}
+
 .about-skill {
     display: flex;
     gap: 50px;
