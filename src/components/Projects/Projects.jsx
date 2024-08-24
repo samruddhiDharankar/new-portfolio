@@ -19,8 +19,8 @@ const Projects = () => {
               <h2>{project.s_name}</h2>
               <p>{project.s_desc}</p>
               <div className="projects-readmore">
-                <p>Read More</p>
-                <img src={arrow_icon} alt="" />
+                {/* <p>Read More</p> */}
+                {/* <img src={arrow_icon} alt="" /> */}
               </div>
             </div>
           );
